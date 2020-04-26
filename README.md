@@ -64,10 +64,14 @@ Analysis of a language based on its patterns of stress and intonation in differe
 
 ### Algorithm Used
 
-Emotional prosody is a theory that explains when an individual's voice tone in speech which is conveyed through changes in the prosodic values such as pitch, loudness, timbre and rate which is different from linguistic and semantic information. Studies shows that some emotions, such as fear, joy and anger, are portrayed at a higher frequency than emotions such as sadness. 
+Emotional prosody is a theory that explains when an individual's voice tone in speech which is conveyed through changes in the prosodic values such as pitch, loudness, timbre and rate which is different from linguistic and semantic information. Studies shows that some emotions, such as fear, joy and anger, are portrayed at a higher frequency than emotions such as sadness.
+
 •	Anger: While comparing to the neutral speech, anger is produced with a lower pitch, higher intensity, more energy (500 Hz) in the vocalization. Hot anger, is produced with a higher, more varied pitch, and even greater energy (2000 Hz).
+
 •	Fear : Fear can be panic or anxiety. While comparing to neutral speech, fear have a higher pitch and a faster speech rate with more pauses.
+
 •	Sadness: While comparing to neutral speech, sad emotions are produced with a higher pitch, less intensity but more vocal energy (2000 Hz), longer duration with more pauses, and a lower first formant.
+
 These prosodic values are hashed to the limits of the speech synthesizer and are used to create the required emotions.
 
 
@@ -84,3 +88,8 @@ https://drive.google.com/file/d/1brRhJbcIlz4a9ceLYhMTe6e1A6eP5TS4/view?usp=shari
 
 
 Also see the video attached in the files section
+
+
+## Poster
+
+![](name-of-giphy.gif)
