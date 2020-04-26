@@ -1,4 +1,4 @@
-# TextToEmotionalSpeech_UG_Project
+# Text To Emotional Speech - UG Project
 
 ## Short Intro of how I started working on this project
 
@@ -75,18 +75,61 @@ Emotional prosody is a theory that explains when an individual's voice tone in s
 These prosodic values are hashed to the limits of the speech synthesizer and are used to create the required emotions.
 
 
+## Architecture Diagram 
+ 
+![]()
 
+As in figure, the proposed architecture consists of two main phases which are emotion identification and speech modulation. Apart from that it includes text parser and text cleaner to provide accurate output on different test cases.
+ Java provides the base for the proposed architecture. Swing API is used for providing the user interface to capture the text that is to be synthesized. The input provided by the user is obtained as text format from the keyboard.  The question remains, however, how much of an emotion we can convey via text? This is especially interesting since facial expression and voice intonation convey over 70% of the intended feelings in spoken language. Such facial expressions are provided through the emoticons.
+  
+![]()
 
+The given input is analyzed for emotions from the emoticons used. Here, we are demonstrating based on three basic emotions happiness, sadness and fear. Emotion identification is through the identification of their respective emoticons. Once the emotion is identified and the prosodic variables are changed accordingly to provide the required emotional speech.
+
+  
+
+![]()
+
+## Emotion Identification
+
+•	Pitch features derived from emotional speech samples are compared with the features derived from neutral speech
+
+•	Producing more humanoid effect to the speech involves capturing of mood  from not only text but also text faces (emojis).
+
+ ![]()
+ 
+## Speech Synthesis
+
+•	Analysis of a language based on its patterns of stress and intonation in different contexts
+•	In systemic grammar, prosodic analysis is regarded as an essential foundation for the analysis of syntax and meaning
+•	Prosody’s three most important parameters are energy, fundamental frequency and duration
+•	We have planned to concentrate more on the time duration
+•	After identifying the emotions in the text, the text can be converted into emotional speech by varying the time duration.
+
+  ![]()
+		    Figure - Speed of words uttered in happiness 
+      
+As in the above graph, it shows the frequency of words uttred per second. During happiness, more words are uttered per second and hence there is an increased frequency.
+
+ ![]()
+		   Figure - Speed of words uttered in sadness
+     
+As in the above graph, it shows the frequency of words uttered per second. During happiness, more words are uttered per second and hence there is an increased frequency
+                                     
+ ![]()
+     Figure - Speech synthesisor
 
 
 
 ## Initial look
 
+Initially during the development of the project, the output looked something like given in the below link
+
 https://drive.google.com/file/d/1brRhJbcIlz4a9ceLYhMTe6e1A6eP5TS4/view?usp=sharing
 
 ## Final look
 
-![]()
+![](TextToEmotionalSpeech.mp4)
 
 Also see the video attached in the files section
 
