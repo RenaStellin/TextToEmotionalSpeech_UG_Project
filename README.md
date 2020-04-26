@@ -84,6 +84,8 @@ As in figure, the proposed architecture consists of two main phases which are em
   
 ![](emoticons.gif)
 
+Figure - Characters for emoticon recognition
+
 The given input is analyzed for emotions from the emoticons used. Here, we are demonstrating based on three basic emotions happiness, sadness and fear. Emotion identification is through the identification of their respective emoticons. Once the emotion is identified and the prosodic variables are changed accordingly to provide the required emotional speech.
 
 
@@ -93,7 +95,9 @@ The given input is analyzed for emotions from the emoticons used. Here, we are d
 
 •	Producing more humanoid effect to the speech involves capturing of mood  from not only text but also text faces (emojis).
 
- ![](EmotionIdentificationFromEmoticons.png)
+![](EmotionIdentificationFromEmoticons.png)
+
+Figure - Emotion identification from emoticons
  
 ## Speech Synthesis
 
@@ -103,18 +107,21 @@ The given input is analyzed for emotions from the emoticons used. Here, we are d
 •	We have planned to concentrate more on the time duration
 •	After identifying the emotions in the text, the text can be converted into emotional speech by varying the time duration.
 
-  ![](happy.png)
-		    Figure - Speed of words uttered in happiness 
+![](happy.png)
+
+Figure - Speed of words uttered in happiness 
       
 As in the above graph, it shows the frequency of words uttred per second. During happiness, more words are uttered per second and hence there is an increased frequency.
 
- ![](sad.png)
-		   Figure - Speed of words uttered in sadness
+![](sad.png)
+
+Figure - Speed of words uttered in sadness
      
 As in the above graph, it shows the frequency of words uttered per second. During happiness, more words are uttered per second and hence there is an increased frequency
                                      
- ![](Speech synthesisor.png)
-     Figure - Speech synthesisor
+![](Speech synthesisor.png)
+
+Figure - Speech synthesisor
 
 
 
