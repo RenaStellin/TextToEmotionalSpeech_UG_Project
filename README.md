@@ -77,7 +77,7 @@ These prosodic values are hashed to the limits of the speech synthesizer and are
 
 ## Architecture Diagram 
  
-![]()
+![](ArchitectureDiagramTTSEmotional.png)
 
 As in figure, the proposed architecture consists of two main phases which are emotion identification and speech modulation. Apart from that it includes text parser and text cleaner to provide accurate output on different test cases.
  Java provides the base for the proposed architecture. Swing API is used for providing the user interface to capture the text that is to be synthesized. The input provided by the user is obtained as text format from the keyboard.  The question remains, however, how much of an emotion we can convey via text? This is especially interesting since facial expression and voice intonation convey over 70% of the intended feelings in spoken language. Such facial expressions are provided through the emoticons.
@@ -119,7 +119,7 @@ Figure - Speed of words uttered in sadness
      
 As in the above graph, it shows the frequency of words uttered per second. During happiness, more words are uttered per second and hence there is an increased frequency
                                      
-![](Speech synthesisor.png)
+![](SpeechSynthesisor.png)
 
 Figure - Speech synthesisor
 
