@@ -92,4 +92,4 @@ Also see the video attached in the files section
 
 ## Poster
 
-![](name-of-giphy.gif)
+![](Poster_TextToEmotionalSpeech.jpeg)
