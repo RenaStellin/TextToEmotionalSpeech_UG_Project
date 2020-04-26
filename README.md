@@ -2,7 +2,7 @@
 
 ## Short Intro of how I started working on this project
 
-During my final year in my Under graduation, I was so interested in making the computers and machines behave like humans. So as a starter I along with my friend started working on this project on December,2017 and finished the project on February,2018 (a period of 3 months roughly) with lots of fun and enjoyment. I had all the codes, documents and other files related to the project in my hard disk. Now I am uploading everything in Github to share with you all so that you guys can enjoy and have fun looking at my cool fun simple project.
+During my final year in my Under graduation, I was so interested in making the computers and machines behave like humans. So as a starter I along with my friend started working on this project on December,2017 and finished the project on February,2018 (a period of 3 months roughly) with lots of fun and enjoyment. I had all the codes, documents and other files related to the project in my hard drive. Now I am uploading everything in Github to share with you all so that you guys can enjoy and have fun looking at my cool fun simple project.
 
 ## Abstract
 
@@ -34,7 +34,11 @@ large-coverage corpus.
 The main objective of the project is to make text to emotional speech conversions much more realistic. This could be done if we could capture emotion from not only text but also text faces (emojis or emotion icons) and converting the text into emotional speech using prosodic variables variation techniques. Other objectives are to reduce the space complexity of the existing model by avoiding construction of the separate database for storing different emotional voices and to reduce the time complexity of searching under which emotion the found emotional words appear in database instead reducing the search by finding the emoticons. 
 
 ## Existing System
-The text-to-speech (TTS) synthesis is to convert an arbitrary input text into intelligible and natural sounding speech. TTS system includes mainly two parts: natural language processing and digital signal processing. The general block diagram of TTS system is shown in figure 1. Natural language processing contains three steps. They are text analysis, phonetic analysis and prosodic analysis. The text analysis includes segmentation, text normalization, and part of speech (POS) tagger. Phonetic conversion is to assign phonetic transcription to each word. There are two approaches in phonetic conversion. They are rule based and dictionary based approaches. Rule based is applied for unknown words whereas dictionary based is used for known words. Prosodic analysis is to determine intonation, amplitude and duration modelling of speech. It describes speaker‘s emotion.
+The text-to-speech (TTS) synthesis is to convert an arbitrary input text into intelligible and natural sounding speech. TTS system includes mainly two parts: natural language processing and digital signal processing. The general block diagram of TTS system is shown in figure.
+
+![](Existing.png)
+
+Natural language processing contains three steps. They are text analysis, phonetic analysis and prosodic analysis. The text analysis includes segmentation, text normalization, and part of speech (POS) tagger. Phonetic conversion is to assign phonetic transcription to each word. There are two approaches in phonetic conversion. They are rule based and dictionary based approaches. Rule based is applied for unknown words whereas dictionary based is used for known words. Prosodic analysis is to determine intonation, amplitude and duration modelling of speech. It describes speaker‘s emotion.
  
 ## Drawbacks of Existing Model
 
@@ -133,7 +137,7 @@ https://drive.google.com/file/d/1brRhJbcIlz4a9ceLYhMTe6e1A6eP5TS4/view?usp=shari
 
 ## Final look
 
-![](TextToEmotionalSpeech.mp4)
+![](FinalProjectWithUI.gif)
 
 Also see the video attached in the files section
 
